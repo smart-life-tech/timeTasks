@@ -72,6 +72,6 @@ void loop() {
     Serial.println("sec");
 
   }
-  // Wait for a demonstrator to test your program
+  // Wait for a demonstrator to test your program, code only runs once
   while (true) {}
 }
