@@ -1,4 +1,4 @@
 {
     "board": "arduino:avr:uno",
-    "sketch": "timeTask.ino"
+    "sketch": "morseCode\\morseCode.ino"
 }
