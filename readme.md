@@ -37,16 +37,16 @@ This Arduino project implements BCCode encoding and decoding, LED transmission, 
 
 ## Commands
 
-- **BxB:**
+- **BxB: B2B**
   - If x is even, read potentiometer and transmit as BCCode.
 
-- **PBxxx:**
+- **PBxxx: PG111**
   - Sum three decimal digits; if < 10, transmit IR receiver value as 'HIGH'/'LOW'; else, 'UNKNOWN'.
 
-- **BCxxx:**
+- **BCxxx: BC255**
   - Set red LED brightness to 3-digit number; reset after 250ms.
 
-- **BBxxxx:**
+- **BBxxxx: E.G BB1234**
   - Flash LEDs based on 4-digit value.
 
 
